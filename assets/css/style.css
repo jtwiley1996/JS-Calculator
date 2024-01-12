@@ -1,0 +1,73 @@
+html {
+    font-size: 62.5%;
+}
+
+
+
+body {
+    background-color: #3b3b3c;
+    font-family: Roboto Slab;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.container {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    border: solid #5a5858 .1rem;
+    box-shadow: 1px 1px 10px #5a5858;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+form .display {
+display: flex;
+justify-content: flex-end;
+margin: 2rem 0;
+}
+
+
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1rem;
+    background:transparent;
+    color: white;
+    box-shadow: -4px -4px 15px #5a5858, -5px -5px 15px #2a2a2a;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 4.5rem;
+    box-shadow: none;
+}
+
+form input.equal {
+    width: 14.5rem;
+    
+}
+
+form input.operator {
+    color: #33ffd8;
+}
