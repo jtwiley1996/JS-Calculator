@@ -10,5 +10,9 @@ This app works just like a regular calculator. Click whichever numbers you plan 
 ## Link
 [Access the deployed project here](https://jtwiley1996.github.io/JS-Calculator/)
 
+## Credits
+
+For help on the code, I used various [Stack Overflow](https://www.stackoverflow.com) and [Youtube](https;//www.youtube.com) sources. Otherwise, I was originally going to style with bootstrap but ultimately decided against it. I also used [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab) as my primary font which I linked from Google. 
+
 ## Future Goals
 In the future, I'd like to be able to make a more advanced calculator that features buttons comparable to the TI-84 that I had in high school. I'd also like to be able to make a more complex web page that accompanies the calculator with things like weather, news, etc.
